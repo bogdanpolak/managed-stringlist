@@ -13,7 +13,6 @@ type
   TManagedStrings = record
   private
     fStringList: TStringList;
-    fObjects: TObjectList<TObject>;
     procedure ClearObjects();
     procedure ZeroObjects();
   public
